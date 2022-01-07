@@ -3,12 +3,12 @@ module.exports = {
     title: `luizera's blog`,
     author: {
       name: `Luiz Felipe`,
-      summary: `who lives and works in Belo Horizonte building useful things.`,
+      summary: `who lives and works in Belo Horizonte developing great user interfaces.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `My name is Luiz Felipe and I'm Front-end developer.`,
+    siteUrl: `https://luizera.com/`,
     social: {
-      twitter: `luizchaves97`,
+      instagram: `https://www.instagram.com/luizchaves97/`,
     },
   },
   plugins: [
@@ -51,12 +51,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-61160738-4`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -114,14 +114,14 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Luiz Chaves`,
-        short_name: `luizera`,
+        short_name: `luizera's blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
