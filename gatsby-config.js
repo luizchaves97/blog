@@ -3,7 +3,7 @@ module.exports = {
     title: `luizera's blog`,
     author: {
       name: `Luiz Felipe`,
-      summary: `who lives and works in Belo Horizonte developing great user interfaces.`,
+      summary: `que vive e trabalha em Belo Horizonte desenvolvendo interfaces.`,
     },
     description: `My name is Luiz Felipe and I'm Front-end developer.`,
     siteUrl: `https://luizera.com/`,
